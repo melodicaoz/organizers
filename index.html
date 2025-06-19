@@ -30,11 +30,49 @@
     <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+    <style>
+        /* Semua perangkat akan mewarisi font dan margin umum */
+      
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+      
+        /* Konten khusus untuk desktop */
+        .desktop-only {
+          display: none; /* Default sembunyikan di mobile */
+        }
+      
+        /* Konten khusus untuk mobile */
+        .mobile-only {
+          display: none; /* Default sembunyikan di desktop */
+        }
+      
+        /* Menampilkan elemen khusus desktop ketika ukuran layar lebih dari 768px */
+        @media only screen and (min-width: 769px) {
+          .desktop-only {
+            display: block;
+          }
+        }
+      
+        /* Menampilkan elemen khusus mobile ketika ukuran layar kurang dari 768px */
+        @media only screen and (max-width: 768px) {
+          .mobile-only {
+            display: block;
+          }
+        }
+      </style>
 </head>
 
 <body>
-
+      <div class="mobile-only">
+        <div class="erscoming">  
+            <a href="https://cutt.ly/SrWPhqIM">  
+            <img src="nabungjp.jpg" width="100%"></a>  
+            </div> 
+        </div>	
+        <div class="desktop-only">
     <!-- header area start -->
     <header>
         <!-- start header top -->
